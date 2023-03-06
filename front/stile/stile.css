@@ -72,10 +72,17 @@
     padding-top: 100;
     padding-bottom: 100;
     background: rgba(177,124,144,0.15);
+    display: flex;
 }
 
 .catalog_button{
-    border: 30;
+    width: 80%;
+    height: 80%;
+}
+.catalog_button_div{
+    border: 70px;
+    padding: 15;
+    margin: auto;
 }
 
 .button-bold{
@@ -196,7 +203,7 @@
 .small_lager_text{
     font: normal 14px/normal Verdana, Geneva, sans-serif;
     color: azure;
-    margin: 10;
+    margin: 0;
     border: 0;
     padding: 5;
     text-indent: 0;
@@ -205,7 +212,7 @@
 .big_lager_text{
     font: normal 24px/normal Verdana, Geneva, sans-serif;
     color: azure;
-    margin: 10;
+    margin: 0;
     border: 0;
     padding: 5;
     text-indent: 0;
@@ -247,7 +254,7 @@
 .small_dark_text{
     font: normal 18px/normal Verdana, Geneva, sans-serif;
     color: #551923;
-    margin: 10;
+    margin: 0;
     border: 0;
     padding: 5; 
     text-indent: 0;
@@ -256,6 +263,8 @@
 .left_text_board{
     width: 70%;
     padding: 25;
+    margin: auto;
+    margin-top: 50;
 }
 
 .way_portret{

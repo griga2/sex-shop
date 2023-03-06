@@ -1,0 +1,347 @@
+
+.bold_title_fond{
+    
+}
+
+.flex_item{
+    border: 1xp black solid;
+    flex: 1;
+}
+.flex_box{
+    border: 1xp black solid;
+    display: flex;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.left_freze{
+    position: fixed;
+    top: 80;
+    left: 0;
+    flex-direction: column;
+    width: 10%;
+    height: 35%;
+}
+
+.button_dark{
+    border: 0;
+    background-color: #3A98B9;
+}
+
+.main-s{
+    margin-left: 200;
+    flex-direction: column;
+    margin-right: 200;
+}
+
+.main-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+    height: 8vh;
+    background-color: white;
+}
+
+body{
+    background-color: #FFF1DC;
+}
+
+.main_footer{
+    padding-top: 2vh;
+    flex-direction: row;
+    margin-top: 30vh;
+    bottom: 0;
+    width: 100%;
+    background-color: #3A98B9;
+    height: 10%;
+    justify-content: space-around;
+}
+
+.freez_button{
+    background-color: #EEEEEE;
+}
+
+.bold-text{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 38px;
+    letter-spacing: 1.8px;
+    word-spacing: 1.6px;
+    color: #4F4F4F;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+.page-title{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 42px;
+
+    color: #4F4F4F;
+
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-decoration: none;
+
+}
+
+.hello_page{
+    margin-top: 25vh;
+    flex-direction: row;
+    /* margin-top: 100; */
+    padding: 20;
+    border: 1xp black solid;
+}
+
+.catalog_button_div{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hello_substr_text{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 28px;
+    letter-spacing: 1.8px;
+    word-spacing: 1.6px;
+    color: #4F4F4F;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+
+.hello_page_text{
+    margin: 40;
+}
+
+.princip_board{
+
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 40 ;
+}
+
+.pod_parag{
+    align-self: center;
+    margin-bottom: 5vh;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+}
+
+.for_way_div{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    padding-left: 40;
+}
+
+.insta_page{
+    /* margin-left: 100px; */
+    margin-top: 30vh;
+    flex-direction: column;
+    padding: 30;
+    justify-content: baseline;
+}
+
+
+
+.fast_find{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30vh;
+}
+
+.fast_find_img{
+    display: flex;
+    height: 30vh;   
+    width: 33.3%;
+    padding: 1vh;
+    justify-content: end;
+    /* margin-left: 100; */
+    background-color: #4F4F4F;
+    background-image: "./image.src/QomLTMKBBJ8.jpg";
+}
+
+.for_way_parag{
+    height: 160vh;
+    align-items: stretch;
+    margin-top: 20vh;
+}
+
+.for_way_pod_parag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    max-width: 70%;
+    margin-bottom: 10vh;
+}
+
+.portret_block{
+    display: flex;
+    width: max-content;
+    height: max-content;
+    justify-content: center;
+    align-content: center;
+}
+
+.way_portret{
+    width: 400;
+    height: 600;
+    
+}
+
+.find_parag{
+    margin-top: 30vh;
+    flex-direction: column;
+    padding-left: 12vh;
+    padding-right: 12vh;
+    height: 30vh;
+    justify-content: center;
+}
+
+.left_text_board{
+    width: 70%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30;
+}
+
+.sub_massiv{
+    flex-direction: column;
+}
+.subscribe_page{
+    margin-top: 40vh;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.footer_table_categ{
+    display: flex;
+    flex-direction: column;
+}
+
+.many-small-text{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 26px;
+    color: #4F4F4F;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-decoration: none;
+    width: 70%;
+}
+
+.mode_marge_test{
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 30;
+}
+
+.find_parag_input{
+    height: 7vh;
+    width: 100%;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+
+
+.button_bold{
+    border: 0;
+    background-color: #3A98B9;
+    height: 35%;
+    width: 45%;
+    color: #EEEEEE;
+
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 30px;
+    letter-spacing: 1.8px;
+    word-spacing: 1.6px;
+
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    padding: 4;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .pod_parag{
+        width: 100%;
+    }
+
+    .princip_board{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .for_way_parag{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .fast_find_img{
+        width: 50%;
+    }
+}
+
+.small_dark_text{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 28px;
+    color: #4F4F4F;
+    font-style: normal;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+
+.sub_input{
+    margin: 5;
+}
+
+.bolt_lager_text{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 40px;
+    color: #FFF1DC;
+    font-style: normal;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+
+.many-small-lagger-text{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 28px;
+    color: #FFF1DC;
+    font-style: normal;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+
+.button_lager{
+    background-color: white;
+    border: 0;
+    margin: 5;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 25px;
+    color: #4F4F4F;
+    font-style: normal;
+    font-variant: small-caps;
+    text-decoration: none;
+}

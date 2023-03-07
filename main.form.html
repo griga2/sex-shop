@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8" />
@@ -5,6 +6,8 @@
             Star on Beach
         </title>
         <link rel="stylesheet" href="stile/stile.css">
+        <link rel = "stylesheet" href="./stile/animation.css">
+        <link rel="script" href="index.js">
     </head>
    
     <script>
@@ -21,66 +24,67 @@
                 
             </div>
         </header>
-        <aside class="left_freze flex_box">
-            <button class = " flex_item button_lager freez_button">
-                Каталог
-            </button>
-            <button class = " flex_item button_lager freez_button">
-                Карзина
-            </button>
-            <button class = "flex_item button_lager freez_button">
-                Скидки
-            </button>
-            <button class = "flex_item button_lager freez_button">
-                Новинки
-            </button>
-            <button class = "flex_item button_lager freez_button">
-                Консультация
-            </button>
-        </aside>
+        <!-- <aside class="flex_box left_freze">
+            <div class="" style=" height: 15%; padding-top: 30%;">
+                <form action="component/catalog/catalog.html" target="_blank" class="flex_item flex_box button_lager freez_butto">
+                    <button class="flex_item button_lager" >Каталог</button>
+                </form>
+                <form action="component/catalog.html" target="_blank" class="flex_item flex_box button_lager freez_butto">
+                    <button class="flex_item button_lager" >Карзина</button>
+                </form>
+                <form action="component/catalog.html" target="_blank" class="flex_item flex_box button_lager freez_butto">
+                    <button class="flex_item button_lager" >Скидки</button>
+                </form>
+                <form action="component/catalog.html" target="_blank" class="flex_item flex_box button_lager freez_butto">
+                    <button class="flex_item button_lager" >Новинки</button>
+                </form>
+                <form action="component/catalog.html" target="_blank" class="flex_item flex_box button_lager freez_butto">
+                    <button class="flex_item button_lager" >Консультации</button>
+                </form>
+            </div>
+        </aside> -->
         <main class="main-s">
-            <article class = "flex_box flex_item hello_page" >  
-                <div class = 'flex_item hello_page_text'>
-                <h1 class = 'bold-text '>Интим-бутик
-                    и интернет-магазин,<br>
-                    Перейти в каталог который вас удивит</h1>
-                <a class = "Hello_substr_text">Секс — это искусство, диалог, счастье. <br> Мы опровергаем все стереотипы о секс-шопах.</a>
+            <article class = "flex_box flex_item hello_page slideDown" id = "object" >  
+                <div class = 'flex_item  flex_box hello_page_text'>
+                <h1 class = 'bold-text '><a style="color: #3A98B9;">Интим-бутик<br>
+                    и интернет-магазин,</a><br>
+                    который вас удивит</h1>
+                <a class = " flex_item hello_substr_text">Секс — это искусство, диалог, счастье. <br> Мы опровергаем все стереотипы о секс-шопах.</a>
                 </div>
-                <div class = 'catalog_button_div'>
-                    <button class = "catalog_button button_bold">Перейти в каталог</button>
-                </div>
+                <form action="component/catalog.html" target="_blank" class="flex_item flex_box catalog_button_div">
+                    <button class="flex_item catalog_button button_bold" >Перейти в каталог</button>
+                </form>
             </article>  
-            <section class = "flex_box princip_board">  
-
+            <section class = "flex_box princip_board slideDown" id = "object">  
                     <article class = "pod_parag">
-                        <a class = "page-title">Семейное дело</a> <br>
+                        <a class = "page-title" style="color: #3A98B9;">Семейное дело</a> <br>
                         <a class = "many-small-text princip_board_small_text ">Мы пара, мы искали как поддерживать страсть и любовь в отношениях, а нашли так много, что создали этот проект для каждого.</a>
                     </article>
                     <article  class = "pod_parag">
-                        <a class = "page-title">Быстрая доставка</a> <br>
+                        <a class = "page-title" style="color: #3A98B9;">Быстрая доставка</a> <br>
                         <a  class = "many-small-text princip_board_small_text ">По Новосибирску — за 2 часа на Яндекс.Такси. По России — СДЭК или Почта России, отправляем заказ в течение суток.</a>
                     </article>
 
                     <article  class = "pod_parag">
-                        <a class = "page-title">Подарки</a> <br>
+                        <a class = "page-title" style="color: #3A98B9;">Подарки</a> <br>
                         <a a  class = " princip_board_small_text many-small-text">Приятные мелочи в каждом заказе: сэмплы новинок или любимых продуктов. Пробуйте новое, расширяйте границы — мы поможем.</a>
                     </article>
                     <article  class = "pod_parag">
-                        <a class = "page-title">Тестеры на всё</a> <br>
+                        <a class = "page-title" style="color: #3A98B9;">Тестеры на всё</a> <br>
                         <a  class = " princip_board_small_text many-small-text">В нашем офлайн-магазине все игрушки можно включить и пощупать, а интимную косметику попробовать. Никаких «котов в мешке» и закрытых витрин.</a>
                     </article>
 
              </section>
-            <section class= 'flex_box for_way_parag'>
-                <div class = 'flex_item portret_block '>
+            <section class= 'flex_box for_way_parag' >
+                <div class = 'flex_item portret_block slideRight' id = "object">
                     <img src="image.src/405TUJdnfOs копия.jpg"  alt="we" class = ' way_portret '   >
                 </div>
-                <div class = 'flex_box for_way_div'>
+                <div class = 'flex_box for_way_div slideExpandUp' id = "object">
                     <article class = "flex_item for_way_pod_parag">
                         <a class = "page-title ">Привет! Мы — Женя и Катя</a> 
                         <div class = 'flex_box many-small-text mode_marge_test'>
                             <a  class = "flex_item ">
-                                Мы придумали Pussy Destroyer для себя и друзей.</a><br> 
+                                Мы придумали Star in Beach для себя и друзей.</a><br> 
 
                                 <a  class = "flex_item" >Мы искали магазин для взрослых, где ответят на наши вопросы о сексе и помогут, где секс — это важная часть жизни, а не повод для шуток и приколов.</a><br>
                                 
@@ -106,22 +110,22 @@
                     <article class = " flex_item for_way_pod_parag">
                             <div class = "page-title">
                                 <a >Честность, любовь
-                                и удовольствие —
+                                и удовольствие —<br>
                                 наша
-                                <a>философия</a></a> 
+                                <a style="color: #3A98B9;">философия</a></a> 
                             </div>
-                        <a  class = "flex_item many-small-text ">Любить то, ч то делаешь, заботиться о себе и мире, быть в этом честными — наш путь удовольствия и счастья.</a> 
+                        <a  class = "flex_item many-small-text mode_marge_test ">Любить то, ч то делаешь, заботиться о себе и мире, быть в этом честными — наш путь удовольствия и счастья.</a> 
                     </article>
                 </div>
                 <div>
                     <img src="" alt="" class = "portret">
                 </div>
             </section>
-            <section class = "flex_box find_parag">
+            <section class = "flex_box find_parag slideUp" id = "object">
                 <h2 class = "bold-text">Хотите что-то найти?</h2>
                 <div class = 'flex_box find_parag_input'>
                     <input type="text" class=" flex_item input-dark find_parag_input_text">
-                    <button class="button_dark find_parag_input_button">Искать</button>
+                    <button class="button_dark find_parag_input_button bolt_lager_text">Искать</button>
                 </div>
             </section> 
             <section class = "flex_box fast_find">  
@@ -136,12 +140,12 @@
                 <a class = "page-title flex_item">Поговорим
                     в инстаграме?</a> 
                 <div style="margin-top: 3vh;" class = "many-small-text flex_item "><a>Обсуждаем важное, тестируем новинки, задаем вопросы психологу-сексологу и живем жизнь.
-                    Переходи в наш<a>инстаграм </a>.</a></div>
+                    Переходи в наш<a style="color: #3A98B9;"> инстаграм.</a></a></div>
             </nav>
             <section class = "flex_box subscribe_page">
                 <section >
                     <article class = ' flex_box left_text_board'>
-                    <a class = "page-title-lager bold-text">Подписывайся на наши новости</a> <br>
+                    <a class = "page-title-lager bold-text" style="color: #3A98B9;">Подписывайся на наши новости</a> <br>
                     <a  class = "small_lager_text small_dark_text">Скидки, новинки, обзоры, промокоды, обновления категорий, розыгрыши — всё это в нашей подписке.</a>.</a>
                     </article>
                 </section>
@@ -163,11 +167,34 @@
                      <a> -->
                 </div>
             </section> 
-
         </main>
         <footer class="flex_box main_footer">
                 <h1 class = "bolt_lager_text">Star on Beach</h1>
-                        <h3 class = 'many-small-lagger-text'>Каталог</h3>       
+                <div class="flex_item" style="display: flex; flex-direction: column; margin-left: 10vh;">
+                    <h3 class = 'many-small-lagger-text'>Каталог</h3>
+                    <div class="flex-item flex_box many-small-lagger-text footer_categ_div">
+                        <script src="index.js" >
+                            draf_table_footer(["Игрушки","Интимная косметика","Акссесуары","Портупея и бельё","Презирвативы","Гигиена"],"footer_categ_div")
+                        </script>
+                    </div>  
+                </div>
+                <div class="flex_item" style="display: flex; flex-direction: column;">
+                    <h3 class = 'many-small-lagger-text'>О нас</h3>
+                    <div class="flex-item flex_box many-small-lagger-text footer_for_way_div">
+                        <script src="index.js" >
+                        draf_table_footer(['О нас','Блог',"Доставка и оплата","Бренды","Вопросы Сексологу"],"footer_for_way_div");
+                        </script>
+                    </div>  
+                </div>  
+                <div class="flex_item" style="display: flex; flex-direction: column;">
+                    <h3 class = 'many-small-lagger-text'>Контакты</h3>
+                    <div class="flex-item flex_box many-small-lagger-text footer_contact_div">
+                        <script src="index.js">
+                            console.log('Contact')
+                            draf_table_footer(["г.Новосибсрк ул.Блюхера 42/2","11:00-21:00"],"footer_contact_div")
+                        </script>
+                    </div>  
+                </div>     
         </footer>
 
     </body>

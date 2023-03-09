@@ -1,0 +1,10 @@
+.main_grid{
+    display: grid   ;
+}
+
+.item_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}

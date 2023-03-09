@@ -1,0 +1,25 @@
+.catalog_bar{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    height: 30%;
+    width: 100%;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    border: 1px black solid;
+    justify-content: space-around;
+}
+
+.catalog_bar_section{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border: 1px black solid;
+    width: 100%;
+}
+
+.catalog_secrion_title{
+    border: 1px black solid;
+}
+

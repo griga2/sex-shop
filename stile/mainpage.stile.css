@@ -13,11 +13,13 @@
 }
 .subscribe_page{
     display: flex;
-    margin-top: 40vh;
+    padding-top: 15vh;
     flex-direction: row;
     justify-content: space-around;
     padding-left: 18vh;
     padding-right: 18vh;
+    background-color: #FFF1DC;
+    padding-bottom: 15vh;
 }
 
 @media screen and (max-width: 1400px) {

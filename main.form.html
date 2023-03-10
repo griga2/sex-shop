@@ -9,6 +9,8 @@
         <link rel = "stylesheet" href="./stile/animation.css">
         <link rel="script" href="index.js">
         <link rel="stylesheet" href="stile/fond.css">
+        <link rel="stylesheet" href="stile/mainpage.stile.css">
+        <link rel="stylesheet" href="stile/freez_bar.css">
     </head>
    
     <script>
@@ -17,7 +19,10 @@
     <body>  
         
         <header>
-            <div class="main-header flex_box">
+            <div class="main-header flex_box " style="border: 1px black solid;">
+                    <form action="" class="flex-item freez_bar_button_div" style="">
+                        <input type = 'button' class = 'freez_bar_button' onclick="openBar()">
+                    </form>
                 <img>   
                 <a href="" class=" bold-text">Star on Beach</a>
             </div> 
@@ -25,27 +30,27 @@
                 
             </div>
         </header>
-        <!-- <aside class="flex_box left_freze">
+        <aside id = 'freez_bar' class="flex_box left_freze">
             <div class="" style=" height: 15%; padding-top: 30%;">
-                <form action="component/catalog/catalog.html" target="_blank" class="flex_item flex_box button_lager freez_butto">
+                <form action="component/catalog/catalog.html" target="_blank" class="flex_item flex_box  freez_button">
                     <button class="flex_item button_lager" >Каталог</button>
                 </form>
-                <form action="component/catalog.html" target="_blank" class="flex_item flex_box button_lager freez_butto">
+                <form action="component/catalog.html" target="_blank" class="flex_item flex_box freez_button">
                     <button class="flex_item button_lager" >Карзина</button>
                 </form>
-                <form action="component/catalog.html" target="_blank" class="flex_item flex_box button_lager freez_butto">
+                <form action="component/catalog.html" target="_blank" class="flex_item flex_box  freez_button">
                     <button class="flex_item button_lager" >Скидки</button>
                 </form>
-                <form action="component/catalog.html" target="_blank" class="flex_item flex_box button_lager freez_butto">
+                <form action="component/catalog.html" target="_blank" class="flex_item flex_box  freez_button">
                     <button class="flex_item button_lager" >Новинки</button>
                 </form>
-                <form action="component/catalog.html" target="_blank" class="flex_item flex_box button_lager freez_butto">
+                <form action="component/catalog.html" target="_blank" class="flex_item flex_box  freez_button">
                     <button class="flex_item button_lager" >Консультации</button>
                 </form>
             </div>
-        </aside> -->
+        </aside>
         <main class="main-s">
-            <article class = "flex_box flex_item hello_page slideDown" id = "object" >  
+            <article class = "flex_box flex_item anim_items hello_page" >  
                 <div class = 'flex_item  flex_box hello_page_text'>
                 <h1 class = 'bold-text '><a style="color: #3A98B9;">Интим-бутик<br>
                     и интернет-магазин,</a><br>
@@ -56,32 +61,32 @@
                     <button class="flex_item catalog_button button_bold" >Перейти в каталог</button>
                 </form>
             </article>  
-            <section class = "flex_box princip_board slideDown" id = "object">  
-                    <article class = "pod_parag">
+            <section class = "flex_box princip_board " >  
+                    <article class = "pod_parag right_anim anim_items">
                         <a class = "page-title" style="color: #3A98B9;">Семейное дело</a> <br>
                         <a class = "many-small-text princip_board_small_text ">Мы пара, мы искали как поддерживать страсть и любовь в отношениях, а нашли так много, что создали этот проект для каждого.</a>
                     </article>
-                    <article  class = "pod_parag">
+                    <article  class = "pod_parag left_anim anim_items">
                         <a class = "page-title" style="color: #3A98B9;">Быстрая доставка</a> <br>
                         <a  class = "many-small-text princip_board_small_text ">По Новосибирску — за 2 часа на Яндекс.Такси. По России — СДЭК или Почта России, отправляем заказ в течение суток.</a>
                     </article>
 
-                    <article  class = "pod_parag">
+                    <article  class = "pod_parag right_anim anim_items">
                         <a class = "page-title" style="color: #3A98B9;">Подарки</a> <br>
                         <a a  class = " princip_board_small_text many-small-text">Приятные мелочи в каждом заказе: сэмплы новинок или любимых продуктов. Пробуйте новое, расширяйте границы — мы поможем.</a>
                     </article>
-                    <article  class = "pod_parag">
+                    <article  class = "pod_parag left_anim  anim_items">
                         <a class = "page-title" style="color: #3A98B9;">Тестеры на всё</a> <br>
                         <a  class = " princip_board_small_text many-small-text">В нашем офлайн-магазине все игрушки можно включить и пощупать, а интимную косметику попробовать. Никаких «котов в мешке» и закрытых витрин.</a>
                     </article>
 
              </section>
             <section class= 'flex_box for_way_parag' >
-                <div class = 'flex_item portret_block slideRight' id = "object">
+                <div class = 'flex_item portret_block right_anim anim_items'>
                     <img src="image.src/405TUJdnfOs копия.jpg"  alt="we" class = ' way_portret '   >
                 </div>
-                <div class = 'flex_box for_way_div slideExpandUp' id = "object">
-                    <article class = "flex_item for_way_pod_parag">
+                <div class = 'flex_box for_way_div ' >
+                    <article class = "flex_item for_way_pod_parag anim_items left_anim ">
                         <a class = "page-title ">Привет! Мы — Женя и Катя</a> 
                         <div class = 'flex_box many-small-text mode_marge_test'>
                             <a  class = "flex_item ">
@@ -95,7 +100,7 @@
                         </a><br>
                         </div>
                     </article >
-                    <article class = " flex_item for_way_pod_parag">
+                    <article class = " flex_item for_way_pod_parag anim_items left_anim">
                         <a class="page-title">Star on Beach удивит</a>
                         <div class = 'flex_box many-small-text mode_marge_test'>
                                 <a  class = "flex_item">Мы собрали в наш ассортимент только самое лучшее, эффективное, то, что порадует глаз и действительно подарит удовольствие.</a><br>
@@ -108,7 +113,7 @@
                             </a> 
                         </div>
                     </article>
-                    <article class = " flex_item for_way_pod_parag">
+                    <article class = " flex_item for_way_pod_parag anim_items left_anim">
                             <div class = "page-title">
                                 <a >Честность, любовь
                                 и удовольствие —<br>
@@ -122,40 +127,40 @@
                     <img src="" alt="" class = "portret">
                 </div>
             </section>
-            <section class = "flex_box find_parag slideUp" id = "object">
+            <section class = "flex_box find_parag anim_items up_anim" >
                 <h2 class = "bold-text">Хотите что-то найти?</h2>
-                <div class = 'flex_box find_parag_input'>
+                <div class = 'flex-item flex_box find_parag_input'>
                     <input type="text" class=" flex_item input-dark find_parag_input_text">
-                    <button class="button_dark find_parag_input_button bolt_lager_text">Искать</button>
+                    <button class="flex-item find_parag_input_button button_dark  bolt_lager_text">Искать</button>
                 </div>
             </section> 
             <section class = "flex_box fast_find">  
-                <a  class = 'many-small-lagger-text fast_find_img'>Игрушки</a>
-                <a class = 'many-small-lagger-text fast_find_img'>Интимная косметика</a>
-                <a class = 'many-small-lagger-text fast_find_img'>Аксессуары</a>
-                <a class = 'many-small-lagger-text fast_find_img'>Портупеи и бельё</a>
-                <a  class = 'many-small-lagger-text fast_find_img'>Призервативы</a>
-                <a class = 'many-small-lagger-text   fast_find_img'>Гигиена</a>
+                <a  class = 'many-small-lagger-text fast_find_img _1 anim_items right_anim'>Игрушки</a>
+                <a class = 'many-small-lagger-text fast_find_img _2 anim_items right_anim'>Интимная косметика</a>
+                <a class = 'many-small-lagger-text fast_find_img _3 anim_items left_anim'>Аксессуары</a>
+                <a  class = 'many-small-lagger-text fast_find_img _4 anim_items right_anim'>Портупеи и бельё</a>
+                <a  class = 'many-small-lagger-text fast_find_img _5 anim_items left_anim'>Призервативы</a>
+                <a class = 'many-small-lagger-text   fast_find_img _6 anim_items left_anim'>Гигиена</a>
             </section>
             <nav class = "flex_box insta_page"> 
                 <a class = "page-title flex_item">Поговорим
                     в инстаграме?</a> 
-                <div style="margin-top: 3vh;" class = "many-small-text flex_item "><a>Обсуждаем важное, тестируем новинки, задаем вопросы психологу-сексологу и живем жизнь.
+                <div style="margin-top: 3vh;" class = "many-small-text flex_item anim_items up_anim"><a>Обсуждаем важное, тестируем новинки, задаем вопросы психологу-сексологу и живем жизнь.
                     Переходи в наш<a style="color: #3A98B9;"> инстаграм.</a></a></div>
             </nav>
-            <section class = "flex_box subscribe_page">
+            <section class = "flex_box subscribe_page anim_items up_anim">
                 <section >
                     <article class = ' flex_box left_text_board'>
                     <a class = "page-title-lager bold-text" style="color: #3A98B9;">Подписывайся на наши новости</a> <br>
                     <a  class = "small_lager_text small_dark_text">Скидки, новинки, обзоры, промокоды, обновления категорий, розыгрыши — всё это в нашей подписке.</a>.</a>
                     </article>
                 </section>
-                <section class = "">
-                        <article class="flex_box sub_massiv">
-                            <input title="email" id = "email_input" class = 'sub_input bold-text flex_item'>
-                            <input class = 'sub_input bold-text flex_item'>
-                            <input class = 'sub_input bold-text flex_item'>
-                            <button class = 'sub_input bold-text flex_item'>
+                <section class = "anim_items up_anim">
+                        <article class="flex_box sub_massiv ">
+                            <input title="email" id = "email_input" class = 'flex_item bold-text sub_input'>
+                            <input class = 'flex_item bold-text sub_input '>
+                            <input class = 'flex_item bold-text sub_input'>
+                            <button class = 'flex_item bolt_lager_text find_parag_input_button '>
                                 Отправить
                             </button>
                         </article>
@@ -197,6 +202,7 @@
                     </div>  
                 </div>     
         </footer>
-
+        <script src = 'scripts/anim.js'></script>
+        <script src = 'scripts/freeze.bar.js'></script>
     </body>
 </html>

@@ -16,14 +16,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.left_freze{
-    top: 0;
-    position: fixed;
-    flex-direction: column;
-    width: 10%;
-    height: 100%;
-    background-color: white;
-}
+
 
 .button_dark{
     border: 0;
@@ -36,6 +29,8 @@
 }
 
 .main-header{
+    flex-direction: row;
+    z-index: 1;
     position: fixed;
     top: 0;
     width: 100%;
@@ -47,6 +42,11 @@
 
 body{
     background-color: #FFF1DC;
+    background-image: url('../image.src/back_ground.jpg');
+    background-size: 100%;  
+    background-clip: border-box ;
+    background-repeat: no-repeat;
+    
 }
 
 .main_footer{
@@ -58,27 +58,13 @@ body{
     height: 30%;
 }
 
-.freez_button{
-    background-color: #EEEEEE;
-}
-
-
-.hello_page{
-    margin-top: 25vh;
-    flex-direction: row;
-    /* margin-top: 100; */
-    padding-left: 10%;
-    padding-right: 10%;
-    border: 1xp black solid;
-    justify-content: center;
-    align-content: center;
-}
 
 .catalog_button_div{
     width: 15%; 
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #3A98B9;
 }
 
 
@@ -128,6 +114,7 @@ body{
     flex-wrap: wrap;
     width: 100%;
     margin-top: 30vh;
+    
 }
 
 .fast_find_img{
@@ -136,10 +123,45 @@ body{
     width: 33.3%;
     padding: 1vh;
     justify-content: end;
-    /* margin-left: 100; */
     background-color: #4F4F4F;
-    background-image: "./image.src/QomLTMKBBJ8.jpg";
+    transition:all 0.8s ease 0s
 }
+
+.fast_find_img:focus{
+    background-size: 110%;
+}
+.fast_find_img._1{
+    background-image: url('../image.src/fast_find_toy.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.fast_find_img._2{
+    background-image: url('../image.src/fast_find_cosmetic.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.fast_find_img._3{
+    background-image: url('../image.src/fast_find_acsec.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.fast_find_img._4{
+    background-image: url('../image.src/fast_find_things.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.fast_find_img._5{
+    background-image: url('../image.src/fast_find_prez.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.fast_find_img._6{
+    background-image: url('../image.src/fast_find_gigien.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 
 .for_way_parag{
     height: 160vh;
@@ -162,15 +184,16 @@ body{
 }
 
 .portret_block{
+    flex-direction: row;
     display: flex;
     width: max-content;
     height: max-content;
     justify-content: center;
-    align-content: center;
 }
 
 .way_portret{
     height: 80vh;
+    padding-left: 50;
 }
 
 .find_parag{
@@ -189,16 +212,6 @@ body{
     padding: 30;
 }
 
-.sub_massiv{
-    flex-direction: column;
-}
-.subscribe_page{
-    margin-top: 40vh;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-left: 18vh;
-    padding-right: 18vh;
-}
 
 .footer_table_categ{
     display: flex;
@@ -219,6 +232,8 @@ body{
     width: 100%;
     justify-content: space-between;
     align-content: space-around;
+    border: 1px black solid;
+    justify-content: center;
 }
 
 
@@ -266,14 +281,25 @@ body{
         flex-direction: column;
     }
 
-    .subscribe_page{
+    .find_parag_input{
         flex-direction: column;
+        height: max-content;
     }
-}
 
+    .find_parag_input_button{
+        width: 100%;
+        height: 100%;
+    }
 
-.sub_input{
-    margin: 5;
+    .catalog_button_div{
+        width:50%;
+        align-self: center;
+        margin-top: 4vh;
+        height: 8vh;
+        background-color: #3A98B9;
+    }
+    
+    
 }
 
 
@@ -291,7 +317,10 @@ body{
 }
 
 .find_parag_input_button{
-    width: 15%;
+    border: 0;
+    background-color: #3A98B9;
+    padding: 10;
+    margin: 5;
 }
 
 .footer_categ_div{

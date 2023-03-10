@@ -12,3 +12,4 @@ function draf_table_footer(mas, div_class){
     }
     console.log(mas.length)
 }
+

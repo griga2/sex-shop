@@ -1,6 +1,6 @@
 .sub_input{
-    margin: 5;
-    height: 8vh;
+    margin-bottom: 5PX;
+    height: 3vh;
 }
 
 
@@ -10,6 +10,8 @@
 
 .sub_massiv{
     flex-direction: column;
+    width: 70%;
+    height: 60%;
 }
 .subscribe_page{
     display: flex;
@@ -90,3 +92,7 @@
     opacity: 1; 
 }
 
+.sub_div{
+    width: 80%;
+    height: 80%;
+}

@@ -89,3 +89,7 @@
 .product_title{
         
 }
+
+.blue_text::first-line{
+    color: #3A98B9;
+}

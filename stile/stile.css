@@ -116,7 +116,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    
+    transition: all 0.3s ease 0s;
 }
 
 .fast_find_img{
@@ -132,6 +132,7 @@ body{
 .fast_find_img:focus{
     background-size: 110%;
 }
+
 .fast_find_img._1{
     background-image: url('../image.src/fast_find_cup.jpg');
     background-repeat: no-repeat;
@@ -196,6 +197,7 @@ body{
 .way_portret{
     height: 80vh;
     padding-left: 50;
+    transition: all 0.3s ease 0s;
 }
 
 .find_parag{
@@ -208,6 +210,7 @@ body{
     justify-content: center;
     padding-top: 15vh;
     padding-bottom: 15vh;
+    transition: all 0.3s ease 0s;
 }
 
 .left_text_board{
@@ -346,3 +349,10 @@ body{
     justify-content: space-evenly;
 }
 
+img:hover{
+    height: 85vh;
+}
+
+.fast_find_img:hover{
+    background-size: 110%;
+}

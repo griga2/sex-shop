@@ -100,14 +100,12 @@ body{
 
 .insta_page{
     /* margin-left: 100px; */
-    margin-top: 30vh;
     flex-direction: column;
-    height: 30vh;
     background-color: #FFF1DC;
     justify-content: baseline;
     padding-left: 30vh;
     padding-right: 16vh;
-    padding-top: 5vh;
+    padding-top: 10vh;
     padding-bottom: 5vh;
 }
 

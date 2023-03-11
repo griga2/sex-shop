@@ -61,10 +61,16 @@ body{
 
 
 .catalog_button_div{
-    width: fit-content; 
     height: fit-content;
-    display: flex;
-    
+    width: 50%;
+    border: 1px black solid;
+    background-color: #3A98B9;
+}
+
+.catalog_button{
+    height: fit-content;
+    width: 50%;
+    border: 1px black solid;
     background-color: #3A98B9;
 }
 
@@ -127,12 +133,12 @@ body{
     background-size: 110%;
 }
 .fast_find_img._1{
-    background-image: url('../image.src/fast_find_toy.jpg');
+    background-image: url('../image.src/fast_find_cup.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .fast_find_img._2{
-    background-image: url('../image.src/fast_find_cosmetic.jpg');
+    background-image: url('../image.src/fast_find_biki.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -143,12 +149,12 @@ body{
 }
 
 .fast_find_img._4{
-    background-image: url('../image.src/fast_find_things.jpg');
+    background-image: url('../image.src/fast_find_ass__polot.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .fast_find_img._5{
-    background-image: url('../image.src/fast_find_prez.jpg');
+    background-image: url('../image.src/fast_find_protect.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }

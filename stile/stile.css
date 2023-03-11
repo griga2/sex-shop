@@ -68,9 +68,6 @@ body{
     background-color: #3A98B9;
 }
 
-
-
-
 .princip_board{
     padding-left: 20%;
     padding-right: 10%;
@@ -108,8 +105,6 @@ body{
     padding-top: 10vh;
     padding-bottom: 5vh;
 }
-
-
 
 .fast_find{
     display: flex;

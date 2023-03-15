@@ -1,6 +1,6 @@
 .sub_input{
-    margin: 5;
-    height: 8vh;
+    margin-bottom: 5PX;
+    height: 3vh;
 }
 
 
@@ -10,6 +10,8 @@
 
 .sub_massiv{
     flex-direction: column;
+    width: 70%;
+    height: 60%;
 }
 .subscribe_page{
     display: flex;
@@ -88,4 +90,18 @@
 .up_anim._active{
     transform:  translate(0px,0px);
     opacity: 1; 
+}
+
+.sub_div{
+    width: 80%;
+    height: 80%;
+}
+
+.freez_bar_button_div{
+    position: fixed;
+    z-index: 2;
+    top:5px;
+    left:5px;
+    height: min-content;
+    width: min-content;
 }

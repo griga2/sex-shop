@@ -2,34 +2,31 @@
     position: fixed;
     top: 0;
     opacity: 0;
-    transition: all 0.5s ease 0s;
-    width: 0%;
+    width: 0;
     height: 100vh;
     background-color: #FFFFFF;
     z-index: 1;
+    transition: all 0.3s ease 0s;
 }
 
 .left_freze._visible{
     opacity: 1;
-    width: 20%;
+    width: fit-content;
 }
 
 .freez_button{
-    width: 100%;
     margin: 5vh;
 }
 
 .freez_bar_button{
     height: 5vh;
     width: 5vh;
-    justify-self: start;
-    align-self: flex-start;
+    border: #4f4f4f 2px solid;
+    background-color: #FFFFFF;
 }
 
-.freez_bar_button_div{
-    border: 1px black solid;
-    align-self: flex-start;
-    height: 100%;
-    padding-left: 5px;
-    padding-top: 5px;
+.freez_bar_buttons{
+    height: 15%; 
+    padding-top: 30%;
 }
+

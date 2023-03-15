@@ -96,3 +96,12 @@
     width: 80%;
     height: 80%;
 }
+
+.freez_bar_button_div{
+    position: fixed;
+    z-index: 2;
+    top:5px;
+    left:5px;
+    height: min-content;
+    width: min-content;
+}
